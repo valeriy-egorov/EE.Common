@@ -5,6 +5,7 @@ interface
 Const
   coFileExtIni         = '.ini';
   coFileExtLog         = '.log';
+  coFileExtBak         = '.bak';
   coTop                = 'Top';
   coLeft               = 'Left';
   coWidth              = 'Width';
