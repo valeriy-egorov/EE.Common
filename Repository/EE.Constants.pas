@@ -6,6 +6,7 @@ Const
   coFileExtIni         = '.ini';
   coFileExtLog         = '.log';
   coFileExtBak         = '.bak';
+  coFileExtTxt         = '.txt';
   coFileExtDat         = '.dat';
   coTop                = 'Top';
   coLeft               = 'Left';
