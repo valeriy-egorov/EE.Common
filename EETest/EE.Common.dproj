@@ -57,14 +57,14 @@
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
         <SanitizedProjectName>EE_Common</SanitizedProjectName>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <VerInfo_Keys>CompanyName=SVN;FileDescription=;FileVersion=1.0.0.1;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0;Comments=;SpecialBuild=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=SVN;FileDescription=;FileVersion=1.0.1.1;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0;Comments=;SpecialBuild=</VerInfo_Keys>
         <DCC_Define>SinglePrec;$(DCC_Define)</DCC_Define>
         <DCC_ExeOutput>..\Exe</DCC_ExeOutput>
         <DCC_ObjOutput>I:\TempDcu\Obj\$(Platform)</DCC_ObjOutput>
         <DCC_DcuOutput>I:\TempDcu\$(Config)\$(Platform)</DCC_DcuOutput>
         <DCC_HppOutput>I:\TempDcu\Hpp\$(Platform)</DCC_HppOutput>
+        <VerInfo_Release>1</VerInfo_Release>
         <DCC_WriteableConstants>true</DCC_WriteableConstants>
-        <ImageDebugInfo>true</ImageDebugInfo>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <VerInfo_Build>0</VerInfo_Build>
@@ -85,6 +85,8 @@
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <VerInfo_Keys>CompanyName=SVN;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductVersion=1.0.0.0;ProgramID=com.embarcadero.$(MSBuildProjectName);FileDescription=$(MSBuildProjectName);ProductName=$(MSBuildProjectName)</VerInfo_Keys>
         <BT_BuildType>Debug</BT_BuildType>
+        <VerInfo_Release>0</VerInfo_Release>
+        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <VerInfo_Build>0</VerInfo_Build>

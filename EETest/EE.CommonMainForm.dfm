@@ -22,4 +22,13 @@ object EECommonMainFrm: TEECommonMainFrm
     TabOrder = 0
     OnClick = Button1Click
   end
+  object Memo1: TMemo
+    Left = 24
+    Top = 51
+    Width = 185
+    Height = 89
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 1
+  end
 end
