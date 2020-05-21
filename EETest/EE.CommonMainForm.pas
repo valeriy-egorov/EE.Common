@@ -11,8 +11,10 @@ type
     Button1: TButton;
     Memo1: TMemo;
     Button2: TButton;
+    Button3: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
    private
 
    public
@@ -36,6 +38,11 @@ end;
 procedure TEECommonMainFrm.Button2Click(Sender: TObject);
 begin
 Memo1.Lines.Add('Line2');
+end;
+
+procedure TEECommonMainFrm.Button3Click(Sender: TObject);
+begin
+Memo1.Lines.Add('Line333');
 end;
 
 end.

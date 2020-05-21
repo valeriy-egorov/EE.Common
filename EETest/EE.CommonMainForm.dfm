@@ -40,4 +40,13 @@ object EECommonMainFrm: TEECommonMainFrm
     TabOrder = 2
     OnClick = Button2Click
   end
+  object Button3: TButton
+    Left = 20
+    Top = 98
+    Width = 185
+    Height = 25
+    Caption = 'Button3'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
 end
