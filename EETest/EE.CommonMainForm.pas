@@ -10,7 +10,9 @@ type
   TEECommonMainFrm = class(TForm)
     Button1: TButton;
     Memo1: TMemo;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
    private
 
    public
@@ -29,6 +31,11 @@ uses EE.Constants;
 procedure TEECommonMainFrm.Button1Click(Sender: TObject);
 begin
 MEmo1.Lines.Add('Line1');
+end;
+
+procedure TEECommonMainFrm.Button2Click(Sender: TObject);
+begin
+Memo1.Lines.Add('Line2');
 end;
 
 end.

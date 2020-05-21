@@ -23,12 +23,21 @@ object EECommonMainFrm: TEECommonMainFrm
     OnClick = Button1Click
   end
   object Memo1: TMemo
-    Left = 124
-    Top = 20
+    Left = 20
+    Top = 51
     Width = 185
     Height = 41
     Lines.Strings = (
       'Memo1')
     TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 130
+    Top = 20
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 2
+    OnClick = Button2Click
   end
 end
