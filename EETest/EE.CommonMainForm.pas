@@ -36,6 +36,8 @@ end;
 procedure TEECommonMainFrm.Button2Click(Sender: TObject);
 begin
 Memo1.Lines.Add('Line2');
+Memo1.Lines.Add('Line22');
+
 end;
 
 end.
