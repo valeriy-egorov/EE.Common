@@ -43,6 +43,7 @@ end;
 procedure TEECommonMainFrm.Button3Click(Sender: TObject);
 begin
 Memo1.Lines.Add('Line333');
+Memo1.Lines.Add('Line33333');
 end;
 
 end.
