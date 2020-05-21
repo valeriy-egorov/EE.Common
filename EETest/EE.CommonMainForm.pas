@@ -12,6 +12,7 @@ type
     Memo1: TMemo;
     Button2: TButton;
     Button3: TButton;
+    Edit1: TEdit;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
@@ -46,6 +47,7 @@ procedure TEECommonMainFrm.Button3Click(Sender: TObject);
 begin
 Memo1.Lines.Add('Line333');
 Memo1.Lines.Add('Line33333');
+Edit1.Text           := 'Edit1';
 end;
 
 end.

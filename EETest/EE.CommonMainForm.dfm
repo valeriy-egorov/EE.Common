@@ -49,4 +49,12 @@ object EECommonMainFrm: TEECommonMainFrm
     TabOrder = 3
     OnClick = Button3Click
   end
+  object Edit1: TEdit
+    Left = 20
+    Top = 129
+    Width = 185
+    Height = 21
+    TabOrder = 4
+    Text = 'Edit1'
+  end
 end
